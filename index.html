@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn 👇 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RAFCART</title>
+  </head>
+  <body>
+
+    
+
+    <!-- for tailwind css support 👇 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: '576px',
+            md: '768px',
+            lg: '992px',
+            xl: '1200px'
+          },
+          container: {
+            center: true,
+            padding: '1rem'
+          }, 
+          extend: {
+            fontFamily: {
+              poppins: "'Poppins', sans-serif",
+              roboto: "'Roboto', sans-serif",
+            },
+            colors: {
+              primary: '#FD3D57'
+            }
+          },
+        },
+      };
+    </script>
+  </body>
+</html>
